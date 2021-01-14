@@ -10,10 +10,17 @@ public class AddTwoIntegers {
         int sum = first + second;
 
         System.out.println("The sum is: " + sum);
+		
+		printTextAfter();
     }
 	
 	public static void printText(){
 		System.out.println("Main Method started");
+	}
+	
+		
+	public static void printTextAfter(){
+		System.out.println("Main Method ended");
 	}
 	
 		
